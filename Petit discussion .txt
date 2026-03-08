@@ -1,0 +1,13 @@
+Algorithme DialogueSimple
+variable 
+    var nameUser : chaine
+    var old : ENTIER 
+    
+Début
+	écrireln("Quel est votre nom?")
+	lire(nameUser)
+	ecrireln ('Votre âge : ')
+	lire(old)
+	
+	ecrireln('Bienvenue dans mon site ! ', nameUser,', vous avez ', old, ' ans.')
+Fin

@@ -1,0 +1,21 @@
+Algorithme calculateurSimple
+variable 
+    var a, b : entier
+    var fois, addition, quotientReel, quotientEntier : reel
+    
+Début
+    ecrire('Entrer n1 : ')
+    lire(a)
+    ecrire('Entrer n2 : ')
+    lire(b)
+    addition <- a + b
+    fois <- a * b
+    quotientEntier <- a div b
+    quotientReel <- a / b
+    ecrireln()
+    ecrireln("Le calculateur simple")
+    ecrireln(" Leur somme : ",addition)
+    ecrireln(" Leur produit : ",fois)
+    ecrireln(" Leur quotient reel : ", quotientReel)
+	ecrireln(" Leur quotient entier : ", quotientEntier)
+Fin

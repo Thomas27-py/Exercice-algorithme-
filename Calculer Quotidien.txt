@@ -1,0 +1,13 @@
+Algorithme calculerQuotidien
+variable
+    var sommeSeconde, sec, min : entier
+    
+Début
+    ecrireln('Saisir les nombres total du seconde :')
+    lire(sommeseconde)
+    min <- sommeseconde div 60
+    sec <- sommeseconde % 60
+    ecrireln('Conversion des secondes en minutes : ')
+    ecrireln(sommeseconde, " s = ", min, ' mn ', ' et ',sec,' s.')
+	
+Fin

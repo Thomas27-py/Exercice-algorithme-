@@ -1,0 +1,11 @@
+Algorithme SurfaceRectangle
+variable
+    var L, lar, surface : reel
+Début
+	ecrireln('Entrer le longueur : ')
+	lire(L)
+	ecrireln('Saisir le largeur : ')
+	lire(lar)
+	surface <- L*lar
+	ecrireln('La surface : ', surface,' cm2')
+Fin

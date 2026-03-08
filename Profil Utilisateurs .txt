@@ -1,0 +1,17 @@
+Algorithme profilUser
+variable 
+    var nom : chaîne 
+    var age : entier
+    var poids : reel
+    var estActif : booleen
+    
+Début
+    nom <- 'Aina'
+    age <- 25 
+    poids <- 45.6
+    estActif <- vrai
+    ecrireln ("Entrer votre nom : ", nom)
+    ecrireln("Votre âge : ", age)
+    ecrireln("Votre poids : ", poids,' kg.')
+    ecrireln("Etês-vous apte? :  ", estActif)
+Fin

@@ -1,0 +1,14 @@
+Algorithme prixAvecTVA
+Constante
+    const TAUX_TVA = 0.20
+Variable
+     var prixHorsTaxe, montant_Tva, prixTotal : reel
+    
+Début
+	écrireln("Entrer le prix d'un article en € : ")
+	lire(prixhorstaxe)
+	montant_tva <- prixhorstaxe * TAUX_TVA
+	ecrireln("Montant avec TVA : ", montant_tva,' €')
+	prixTotal <- montant_tva + prixhorstaxe
+	ecrireln('Prix TTC : ', prixTotal,' €')
+Fin
