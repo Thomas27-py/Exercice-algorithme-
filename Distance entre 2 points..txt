@@ -1,0 +1,21 @@
+/*
+Cette algorithme qui permet de calculer la distance entre deux points dans un plan.
+*/
+
+
+
+Algorithme distance_entre_deux_points
+Variable 
+    var xa, ya, xb, yb, distance : reel
+Début
+    affiche("Entrer l'abscisse de A : ")
+    lire(xa)
+    affiche("Entrer l'ordonnée de A : ")
+    lire(ya)
+    affiche("Entrer l'abscisse de B : ")
+    lire(xb)
+    affiche("Entrer l'ordonnée de B : ")
+    lire(yb)
+    distance <- racine((xa - xb)^2 + (ya - yb)^2)
+    affiche("La distance entre A et B : ", distance)
+Fin

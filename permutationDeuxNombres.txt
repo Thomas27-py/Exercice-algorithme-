@@ -1,0 +1,21 @@
+Algorithme permutationDeuxNombres
+variable
+    var a, b, echange : reel
+Début
+    afficher ("Saisir 1ère nombre : ")
+    lire(a)
+    afficher ("Saisir 2ème nombre : ")
+    lire(b)
+    
+    afficher ("Avant la permutation :")
+    afficher ("\n 1ère nombre : ", a)
+    afficher ("\n 2ème nombre : ", b)
+     echange <-  a
+     a <- b
+     b <- echange
+     
+    afficher ("\nAprès la permutation : ")
+    afficher ("\n 1ère nombre : ", a)
+    afficher (" \n 2ème nombre : ", b)
+	
+Fin

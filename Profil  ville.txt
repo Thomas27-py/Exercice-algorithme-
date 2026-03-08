@@ -1,0 +1,22 @@
+Algorithme profilDeVille
+variable
+    var nom : chaine
+    var nbPopulation : entier
+    var température : reel
+
+Début
+    affiche("Saisir le nom de pays : ")
+    lire(nom)
+    ecrire("Saisir les nombres des populations : ")
+    lire(nbPopulation)
+    ecrire("Saisir la température en °C : ")
+    lire(température)	
+    ecrireln("----------------------------------------")
+    
+    ecrireln("Nom de pays : ", nom)
+    
+    ecrireln("Nommbres des populations : ", nbPopulation) 
+   
+    ecrireln("Température : ",température," °C")
+    
+Fin
